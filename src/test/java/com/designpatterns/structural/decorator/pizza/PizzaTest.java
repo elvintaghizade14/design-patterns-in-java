@@ -1,9 +1,8 @@
 package com.designpatterns.structural.decorator.pizza;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
-public class PizzaTest extends TestCase {
+public class PizzaTest {
 
   @Test
   public void testMultiplyPizza() {
