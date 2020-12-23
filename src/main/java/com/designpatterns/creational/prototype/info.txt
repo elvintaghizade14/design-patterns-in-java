@@ -1,0 +1,11 @@
+Prototype Pattern in a Nutshell:
+     - A class is created in a prototypical manner,
+     - Instance is cloned at runtime to give new instances that are not the prototype,
+       but act the same and have the same state,
+     - In java, this is usually is usually done with `Cloneable` interface,
+     - Prototypes are usually deep clones of objects to maintain safety.
+
+Why use this pattern?
+    - Very useful when object creation is expensive, but wrapper needs to be unique,
+    - Useful with objects that must act thread safe, but need to store state,
+    - Provide cost savings on object creation.

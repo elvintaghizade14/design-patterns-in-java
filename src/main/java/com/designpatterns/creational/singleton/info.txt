@@ -1,0 +1,11 @@
+Singleton Pattern in a nutshell:
+    - Class stores reference to instance of itself,
+    - Constructor is private,
+    - Static `getInstance()` method reference of self instance, or if not constructed
+      it constructs in thread safe manner,
+    - The `new` command is never called on the class outside of the `getInstance()` method.
+
+Why use this pattern?
+    - Expensive object creation,
+    - Control concurrency associated with shared resources,
+    - Storing static state for multiple parts of the application.
