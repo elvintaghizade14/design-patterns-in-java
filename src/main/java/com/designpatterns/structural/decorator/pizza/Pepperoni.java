@@ -12,7 +12,7 @@ public class Pepperoni extends PizzaIngredient {
 
   @Override
   public BigDecimal getCost() {
-    return (new BigDecimal(15.00)).add(this.pizza.getCost());
+    return BigDecimal.valueOf(15.00).add(this.pizza.getCost());
   }
 
   @Override

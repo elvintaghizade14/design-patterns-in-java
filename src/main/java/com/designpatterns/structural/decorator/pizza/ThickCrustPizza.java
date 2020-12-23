@@ -7,10 +7,11 @@ public class ThickCrustPizza extends Pizza {
   public ThickCrustPizza() {
     super();
     this.description = "Thick Crust Pizza";
+    this.cost = new BigDecimal(15.00);
   }
 
   @Override
   public BigDecimal getCost() {
-    return new BigDecimal(15.00);
+    return this.cost;
   }
 }
