@@ -1,0 +1,12 @@
+Adapter Pattern in a Nutshell:
+    - Two different interfaces share common operations,
+    - Adapter is a wrapper class that is created that holds an
+      instance of one interface and implements th other,
+    - The shared operation of the wrapper interface is implemented to call
+      the shared operation of the wrapped interface.
+
+Why use this pattern?
+    - Legacy or third party code needs to fit into your code,
+    - Shared functionality on disparate objects to reduce code,
+    - Coding to interfaces in routine workflows and leveraging adapters
+      reduces code while improving readability.

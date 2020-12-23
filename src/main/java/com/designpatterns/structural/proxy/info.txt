@@ -1,0 +1,10 @@
+Proxy Pattern in a Nutshell:
+    - Use of a intermediary object in place of a real object,
+    - Intermediary protects the real object,
+    - Intermediary controls the instantiation of the real object,
+    - Intermediary can add behaviour to real object.
+
+Why use this pattern?
+    - Expensive operations need to be protected and only called when needed,
+    - Behaviour needs to be added to a method when it is called in specific operations,
+    - Remove object access.

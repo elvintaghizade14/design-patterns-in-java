@@ -1,0 +1,12 @@
+Decorator Pattern in a Nutshell:
+    - Adding responsibilities to an object dynamically at runtime,
+    - Composition instead of Inheritance,
+    - Inherited base classes compose new behaviour and responsibility
+      by becoming additive or decorated,
+    - Allows an object to be open for extension and close for modification
+      while still adding responsibilities.
+
+Why use this pattern?
+    - Composition over inheritance,
+    - Add behaviour without modifications, support non-breaking changes,
+    - Can also remove behaviour through encapsulation via decoration.
