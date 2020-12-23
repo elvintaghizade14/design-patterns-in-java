@@ -1,0 +1,10 @@
+Builder pattern in nutshell:
+    - Each method returns the object reference it's called from,
+    - Build method returns fully constructed object,
+    - Functionality can be combined into one class,
+
+Why use this pattern?
+    - useful when object creation has many parameters,
+    - Becomes increasingly more useful when some or all parameters are optional,
+    - Can make code easier to read because of reduced lines of construction
+      when compared with setters.

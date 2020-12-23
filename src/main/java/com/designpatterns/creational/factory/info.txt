@@ -1,0 +1,9 @@
+Factory in nutshell:
+    - Factory allows constructions of similar classes of different types using a factory method,
+    - Method call creates an object for you and serves it back,
+    - Constructed objects are from classes that share an interface or parent class.
+
+Why use this pattern?
+    - Allows you to not worry about class construction in more than one place,
+    - Allows you to leverage the interface for repetitive operations,
+    - lack of construction in your code cleans up code and aslo make copy-paste errors less likely.

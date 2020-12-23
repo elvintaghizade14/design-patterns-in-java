@@ -1,0 +1,5 @@
+Abstract Factory in nutshell:
+    - Takes the Factory pattern a step further
+    - Factory of factories
+    - Ads a new level of abstraction that becomes powerful
+      if you have a bunch of types that also have a bunch of types
