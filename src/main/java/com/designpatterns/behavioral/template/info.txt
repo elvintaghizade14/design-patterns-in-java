@@ -1,0 +1,11 @@
+Template Pattern ina Nutshell:
+    - Common boilerplate operations are hidden in a base class,
+    - Common flows are captured in overarching algorithms
+      with abstract or default methods for the variant code,
+    - Concrete implementations handle the variant code and extend the base class.
+
+Why use this pattern?
+    - Often common code paths leads to code replication, templates encourage DRY and reuse,
+    - Error prone code can be solved once and reuse,
+    - Common task semantics can be templatized to reduce
+      costs of implementing new versions of the same pathway

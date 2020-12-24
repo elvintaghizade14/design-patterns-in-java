@@ -1,0 +1,10 @@
+Repository Pattern in a Nutshell:
+    - Not a GoF pattern, but was introduced in Domain-Driven Design by Eric Evans,
+    - Simple operations of an entity or business object without knowledge of other entities (DAO),
+    - Under the abstraction, the data access operations are hidden.
+
+Why use this pattern?
+    - Databases have become the bottleneck,
+    - Prevent data access logic from leaking into your business logic,
+    - Provide a layer of abstraction to hide internals,
+    - Focus on single business objects at a time.

@@ -1,0 +1,11 @@
+MVC Pattern in a Nutshell:
+    - Responsibilities are broken into three distinct components,
+    - Model delivers data to the view,
+    - View delivers the experience to the consumer,
+    - Controller populates the model, selects the view, and merge them together.
+
+Why use this pattern?
+    - Improves developer efficiencies by separating responsibilities,
+    - Dynamic and multiple view selection with the same controller/model,
+    - View can be modified without modification to the business logic,
+    - Model returns raw data, unformatted, for future consumption.
