@@ -3,11 +3,11 @@ package com.designpatterns.creational.singleton.other;
 import junit.framework.TestCase;
 import org.junit.Assert;
 
-public class SingATest extends TestCase {
+public class DoubleCheckedLockingTest extends TestCase {
 
   public void testGetInstance() {
-    SingA instance1 = SingA.getInstance();
-    SingA instance2 = SingA.getInstance();
+    DoubleCheckedLocking instance1 = DoubleCheckedLocking.getINSTANCE();
+    DoubleCheckedLocking instance2 = DoubleCheckedLocking.getINSTANCE();
 
     Assert.assertNotNull(instance1);
     Assert.assertNotNull(instance2);
