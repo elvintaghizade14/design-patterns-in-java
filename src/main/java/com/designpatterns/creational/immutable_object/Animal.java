@@ -24,7 +24,7 @@ public final class Animal {
         if (favoriteFoods == null) {
             throw new RuntimeException("favoriteFoods is required");
         }
-        this.favoriteFoods = new ArrayList<String>(favoriteFoods);
+        this.favoriteFoods = new ArrayList<>(favoriteFoods);
     }
 
     public String getSpecies() {
