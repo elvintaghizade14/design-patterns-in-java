@@ -1,7 +1,7 @@
 package com.designpatterns.creational.singleton.other;
 
 public class DoubleCheckedLocking {
-  private static DoubleCheckedLocking INSTANCE;
+  private static volatile DoubleCheckedLocking INSTANCE;
 
   private DoubleCheckedLocking() {
     super();
